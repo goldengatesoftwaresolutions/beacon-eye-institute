@@ -1,6 +1,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
+<meta property="og:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}">
+<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
+<meta property="og:image" content="{{ "branding-bg-light.png" | absURL }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ .Permalink }}">
 <title>{{ if .IsHome }}{{ site.Title }} | San Francisco Bay Area Ophthalmologist{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
 <link rel="icon" href="{{ "favicon.ico" | relURL }}" sizes="any">
 <link rel="preconnect" href="https://fonts.googleapis.com">

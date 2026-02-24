@@ -3,7 +3,7 @@ title: "About Us"
 description: "Learn about Beacon Eye Institute and Dr. Ngoc Nguyen, M.D. — a board-certified ophthalmologist in San Jose, CA."
 ---
 
-{{< figure src="/avatar.png" alt="Dr. Ngoc Nguyen, M.D." caption="Ngoc Nguyen, M.D. — Board-Certified Ophthalmologist" class="doctor-avatar" >}}
+{{< figure src="/beacon-eye-institute/avatar.png" alt="Dr. Ngoc Nguyen, M.D." caption="Ngoc Nguyen, M.D. — Board-Certified Ophthalmologist" class="doctor-avatar" >}}
 
 Beacon Eye Institute is led by **Ngoc Nguyen, M.D.**, a board-certified ophthalmologist with decades of experience treating patients in the South Bay Area.
 
